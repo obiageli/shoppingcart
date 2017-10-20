@@ -1,0 +1,10 @@
+#Ignore files below
+#
+
+project/*
+!plugins.sbt
+target/*
+.cache
+.classpath
+.project
+*.csv
