@@ -12,5 +12,8 @@ class ShoppingCartTest extends FlatSpec{
     assert(shoppingCart.total(list) == 2.95)
   }
   
+   it should "have a total on offer of 1.85  for the sum of 3 for the price of 2 on oranges and 2 for the price of 1 on apples" in {
+   assert(shoppingCart.orangesAndApplesOnOffer(list) == 1.85)
+  }
   
 }
